@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #00463e;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00463e;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    background-color: #85d6b0;
+}
+
+/* Header */
+.header {
+    background-color: #00463e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav {
+    display: inline-block;
+    width: 80%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+.hero {
+    background: url('banner-placeholder.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Article Grid Layout */
+.article-grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px;
+}
+
+.article-grid img {
+    width: 100%;
+}
+
+/* Flex Class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-card, .collage-tile {
+    flex: 1 1 40%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.view-more-button {
+    background-color: #00463e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-more-button:hover {
+    background-color: #85d6b0;
+}
+
+/* Footer */
+.footer {
+    background-color: #00463e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
