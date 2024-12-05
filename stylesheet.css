@@ -36,7 +36,7 @@ body {
 /* Hero Section (Banner) */
 .hero {
     background: url('/root/banner-placeholder.png') center/cover no-repeat;
-    color: black;
+    color: white;
     text-align: center;
     padding: 150px 20px;
     position: relative; /* Enables positioning for child elements */
